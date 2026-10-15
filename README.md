@@ -62,3 +62,9 @@ De MIT-licentie en bronbestanden van Plugin Update Checker staan onder `includes
 Gebruik de Git-repository als ontwikkelbron. Installeer de release-zip op de WordPress-omgevingen die je via de pluginpagina wilt bijwerken; een WordPress-update vervangt de pluginmap en kan daardoor een daarin aanwezige `.git`-map verwijderen.
 
 Updatercontroles: `php tests/update-policy.php` werkt zonder database en netwerk. `wp eval-file tests/updater-wordpress.php` test de echte WordPress-updategegevens en het behouden van de pluginmap met onderschept HTTP-verkeer en tijdelijke bestanden.
+
+## Eén lokale bron voor Skeletor en sites.test
+
+Gebruikersafspraak van 15 oktober 2026: houd de code van Skeletor en sites.test fysiek op één plek, net als het gedeelde thema. De Git-repositories onder `/Users/jeffreypisa/Sites/skeletor/wp-content/plugins/emonks-dashboard` en `emonks-sitefactory` zijn de enige ontwikkelbron. De pluginmappen op `/Users/jeffreypisa/Sites/site-factory/wp-content/plugins` verwijzen daar met symbolische koppelingen naartoe. De oude bronlocatie `/Users/jeffreypisa/Sites/sitefactory` blijft als koppeling naar de Site Factory-repository beschikbaar voor bestaande scripts. Maak geen aparte runtimekopieën voor deze lokale installaties. Instellingen en inhoud blijven per WordPress-installatie of site in de database opgeslagen.
+
+Git-werkmappen worden door de updater uitgesloten van WordPress-updatemeldingen en automatische pluginupdates, zodat WordPress de gedeelde bron en Git-geschiedenis niet vervangt. Pas lokale code aan of haal wijzigingen op in de centrale repository. Normale installaties uit een release-zip bevatten geen `.git` en gebruiken wel de gewone WordPress-updater.
