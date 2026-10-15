@@ -1,4 +1,4 @@
-# Emonks Dashboard 1.1.1
+# Emonks Dashboard 1.1.2
 
 Zelfstandige WordPress-plugin van emonks voor een klantdashboard, algemene handleidingen, bureauprofiel, supportgegevens, beheerfooter en inlogvormgeving. Werkt zonder ACF, Timber of Skeletor. PHP 8.0+ en WordPress 6.2+.
 
@@ -68,3 +68,5 @@ Updatercontroles: `php tests/update-policy.php` werkt zonder database en netwerk
 Gebruikersafspraak van 15 oktober 2026: houd de code van Skeletor en sites.test fysiek op één plek, net als het gedeelde thema. De Git-repositories onder `/Users/jeffreypisa/Sites/skeletor/wp-content/plugins/emonks-dashboard` en `emonks-sitefactory` zijn de enige ontwikkelbron. De pluginmappen op `/Users/jeffreypisa/Sites/site-factory/wp-content/plugins` verwijzen daar met symbolische koppelingen naartoe. De oude bronlocatie `/Users/jeffreypisa/Sites/sitefactory` blijft als koppeling naar de Site Factory-repository beschikbaar voor bestaande scripts. Maak geen aparte runtimekopieën voor deze lokale installaties. Instellingen en inhoud blijven per WordPress-installatie of site in de database opgeslagen.
 
 Git-werkmappen worden door de updater uitgesloten van WordPress-updatemeldingen en automatische pluginupdates, zodat WordPress de gedeelde bron en Git-geschiedenis niet vervangt. Pas lokale code aan of haal wijzigingen op in de centrale repository. Normale installaties uit een release-zip bevatten geen `.git` en gebruiken wel de gewone WordPress-updater.
+
+Lokale Git-werkmappen (ook worktrees met een `.git`-bestand) voeren geen periodieke of handmatige GitHub-updatecontrole uit. De controlelink en bijbehorende meldingen verdwijnen; oude geplande controles worden opgeruimd. Normale release-installaties blijven iedere twaalf uur controleren.

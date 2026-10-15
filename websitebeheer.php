@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Emonks Dashboard
  * Description: Klantdashboard, handleidingen, bureauprofiel en branding van beheer en inloggen. Met aanvullende uitleg vanuit het actieve thema.
- * Version: 1.1.1
+ * Version: 1.1.2
  * Requires at least: 6.2
  * Requires PHP: 8.0
  * Author: emonks
@@ -15,7 +15,7 @@ namespace Emonks\Websitebeheer;
 
 if (!defined('ABSPATH')) exit;
 
-define('WEBSITEBEHEER_VERSION', '1.1.1');
+define('WEBSITEBEHEER_VERSION', '1.1.2');
 define('WEBSITEBEHEER_URL', plugin_dir_url(__FILE__));
 (require __DIR__ . '/includes/Updater.php')(__FILE__);
 require_once __DIR__ . '/includes/Agency.php';

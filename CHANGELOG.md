@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.2
+
+- Geen GitHub-updatecontroles of controlelink voor gedeelde lokale Git-werkmappen; normale installaties behouden hun updater.
+
 ## 1.1.1 — 2026-10-15
 
 - Pluginnaam in WordPress gewijzigd van Websitebeheer naar Emonks Dashboard; bestaande instellingen en integraties blijven behouden.
