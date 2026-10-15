@@ -1,0 +1,7 @@
+body.login{background:#f0f3ef;color:#203430;border-top:5px solid var(--sw-accent,#235c56);box-sizing:border-box;min-height:100vh}
+.login #login{width:360px;max-width:calc(100% - 36px);padding-top:8vh}
+.login h1 a{width:200px;height:58px;background-size:contain;background-position:center;margin-bottom:26px}
+.login form{border:1px solid #dce4df;border-radius:14px;box-shadow:0 8px 35px #20343008;padding:28px}
+.login .button-primary{background:#203f36;border-color:#203f36;min-height:38px;padding:0 18px}
+.login .button-primary:hover,.login .button-primary:focus{background:#152f28;border-color:#152f28}
+.login a:focus-visible,.login input:focus-visible,.login button:focus-visible{outline:3px solid #235c56;outline-offset:3px}

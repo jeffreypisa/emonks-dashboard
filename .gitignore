@@ -1,0 +1,16 @@
+.DS_Store
+/.nova/
+/dist/
+/vendor/
+/node_modules/
+.env
+.env.*
+wp-config.php
+*.sql
+*.sqlite*
+*.log
+*.cookie
+*.token
+*.pem
+*.key
+__pycache__/
