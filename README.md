@@ -1,4 +1,4 @@
-# Websitebeheer 1.1.0
+# Emonks Dashboard 1.1.1
 
 Zelfstandige WordPress-plugin van emonks voor een klantdashboard, algemene handleidingen, bureauprofiel, supportgegevens, beheerfooter en inlogvormgeving. Werkt zonder ACF, Timber of Skeletor. PHP 8.0+ en WordPress 6.2+.
 
@@ -6,7 +6,7 @@ Zelfstandige WordPress-plugin van emonks voor een klantdashboard, algemene handl
 
 1. Installeer de map `websitebeheer` in `wp-content/plugins`, of upload `emonks-dashboard-1.1.0.zip` via Plugins → Nieuwe plugin → Plugin uploaden.
 2. Deactiveer de oude plugin Emonks Custom Dashboard als die actief is.
-3. Activeer Websitebeheer. Bij een oudere Skeletor-versie met het ingebouwde dashboard wacht de plugin met starten en toont een melding; zo ontstaan geen dubbele dashboards.
+3. Activeer Emonks Dashboard. Bij een oudere Skeletor-versie met het ingebouwde dashboard wacht de plugin met starten en toont een melding; zo ontstaan geen dubbele dashboards.
 4. Werk Skeletor bij naar 1.2.0 of nieuwer. Bij andere thema’s is deze stap niet nodig.
 5. Controleer Dashboard, Handleidingen, Instellingen → Bureau & whitelabel en het inlogscherm als beheerder én als redacteur.
 

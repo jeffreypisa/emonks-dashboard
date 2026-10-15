@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.1 — 2026-10-15
+
+- Pluginnaam in WordPress gewijzigd van Websitebeheer naar Emonks Dashboard; bestaande instellingen en integraties blijven behouden.
+
 ## 1.1.0 — 2026-10-15
 
 - Updates via de WordPress-pluginpagina vanuit openbare GitHub Releases, met behoud van de bestaande pluginmap.
