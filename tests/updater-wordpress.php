@@ -34,7 +34,7 @@ $temp = get_temp_dir() . 'emonks-updater-' . wp_generate_uuid4();
 try {
     $checker = null;
     global $wp_filter;
-    foreach (($wp_filter['upgrader_source_selection']->callbacks ?? []) as $callbacks) {
+    foreach (($wp_filter['puc_is_slug_in_use-' . $repo]->callbacks ?? []) as $callbacks) {
         foreach ($callbacks as $entry) {
             $callback = $entry['function'];
             if (is_array($callback) && is_object($callback[0]) && ($callback[0]->slug ?? null) === $repo) $checker = $callback[0];
